@@ -9,6 +9,8 @@ import java.util.List;
 
 @Service
 public interface CrawlerService {
-    void getPageLinks();
+    void getPageLinks(String URL);
+    void getPageLinksExam(String URL);
     List<CrawlerDTO> findByCategory(String category);
+    void addQuestion(CrawlerDTO crawlerDTO);
 }

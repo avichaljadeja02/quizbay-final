@@ -15,7 +15,15 @@ public class CrawlerDTO {
     private String category;
     private String answerType;
     private String questionType;
+    private String questionSrc;
 
+    public String getQuestionSrc() {
+        return questionSrc;
+    }
+
+    public void setQuestionSrc(String questionSrc) {
+        this.questionSrc = questionSrc;
+    }
 
     public String getAnswerType() {
         return answerType;
